@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-10 09:11:56 PM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtNVDEwMy0yMDE4MTExMVk7MjAxOS0wMy0xMDsxMjo0MzoxMCBQTTszNDkw"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtNVDEwMy0yMDE4MTExMVk7MjAxOS0wMy0xMDswOToxMTo1NiBQTTsyOzM2MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, x" type="Real" array="False" size=""/>
+            <output expression="&quot;nhap a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;nhap b&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a=0">
+                <then>
+                    <if expression="b=0">
+                        <then>
+                            <output expression="&quot;V&#244; s&#7889; nghi&#7879;m&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;v&#244; nghi&#7879;m&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="x" expression="-b/a"/>
+                    <output expression="&quot;x=&quot;&amp;x" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
